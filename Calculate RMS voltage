@@ -1,0 +1,4 @@
+import math
+v = float(input("Maximum voltage: "))
+vrms = v/math.sqrt(2)
+print("RMS Voltage =", vrms, "V")
