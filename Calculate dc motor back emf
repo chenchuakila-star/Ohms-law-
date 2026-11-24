@@ -1,0 +1,5 @@
+v = float(input("Supply voltage: "))
+i = float(input("Current: "))
+r = float(input("Armature resistance: "))
+eb = v - i*r
+print("Back EMF =", eb, "V")
