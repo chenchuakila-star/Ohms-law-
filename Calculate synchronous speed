@@ -1,0 +1,4 @@
+f = float(input("Frequency: "))
+p = int(input("Number of poles: "))
+ns = 120*f/p
+print("Synchronous Speed =", ns, "RPM")
