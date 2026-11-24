@@ -1,0 +1,3 @@
+n1 = float(input("Primary turns: "))
+n2 = float(input("Secondary turns: "))
+print("Turns Ratio =", n1 / n2)
