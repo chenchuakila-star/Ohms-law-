@@ -1,0 +1,5 @@
+ns = float(input("Synchronous speed: "))
+nr = float(input("Rotor speed: "))
+s = (ns-nr)/ns
+print("Slip =", s)
+print("Slip percentage =", s*100, "%")
