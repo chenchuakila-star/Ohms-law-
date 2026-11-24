@@ -1,0 +1,5 @@
+import math
+s = float(input("Apparent power: "))
+pf = float(input("Power factor: "))
+q = s * math.sqrt(1 - pf**2)
+print("Reactive Power =", q, "VAR")
