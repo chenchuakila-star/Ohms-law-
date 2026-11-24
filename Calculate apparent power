@@ -1,0 +1,4 @@
+v = float(input("Voltage: "))
+i = float(input("Current: "))
+s = v * i
+print("Apparent Power =", s, "VA")
