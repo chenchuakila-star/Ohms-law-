@@ -1,0 +1,4 @@
+i = float(input("Enter input power: "))
+o = float(input("Enter output power: "))
+eff = (o / i) * 100
+print("Efficiency =", eff, "%")
