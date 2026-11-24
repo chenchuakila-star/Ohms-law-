@@ -1,0 +1,6 @@
+import math
+v = float(input("Voltage: "))
+i = float(input("Current: "))
+pf = float(input("Power factor: "))
+p = v * i * pf
+print("AC Power =", p, "Watts")
