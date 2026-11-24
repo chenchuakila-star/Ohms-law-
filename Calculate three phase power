@@ -1,0 +1,6 @@
+import math
+v = float(input("Enter line voltage: "))
+i = float(input("Enter line current: "))
+pf = float(input("Enter power factor: "))
+p = math.sqrt(3) * v * i * pf
+print("Power =", p, "Watts")
