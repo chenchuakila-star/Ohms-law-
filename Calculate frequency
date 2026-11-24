@@ -1,0 +1,3 @@
+t = float(input("Enter time period: "))
+f = 1 / t
+print("Frequency =", f, "Hz")
