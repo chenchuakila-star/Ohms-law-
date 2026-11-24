@@ -1,0 +1,5 @@
+v1 = float(input("Primary voltage: "))
+n1 = float(input("Primary turns: "))
+n2 = float(input("Secondary turns: "))
+v2 = v1 * n2/n1
+print("Secondary voltage =", v2, "V")
