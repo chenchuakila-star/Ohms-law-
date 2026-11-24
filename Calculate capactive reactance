@@ -1,0 +1,5 @@
+import math
+f = float(input("Enter frequency: "))
+c = float(input("Enter capacitance in Farads: "))
+xc = 1 / (2 * math.pi * f * c)
+print("Capacitive Reactance =", xc, "Ohms")
