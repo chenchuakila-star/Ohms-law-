@@ -1,0 +1,4 @@
+p = float(input("Enter power: "))
+t = float(input("Enter time: "))
+e = p * t
+print("Energy =", e, "Wh")
