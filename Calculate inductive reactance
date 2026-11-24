@@ -1,0 +1,5 @@
+import math
+f = float(input("Enter frequency: "))
+l = float(input("Enter inductance in Henry: "))
+xl = 2 * math.pi * f * l
+print("Inductive Reactance =", xl, "Ohms")
