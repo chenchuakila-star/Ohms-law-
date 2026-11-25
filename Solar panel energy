@@ -1,0 +1,6 @@
+p = float(input("Enter panel power in watts: "))
+t = float(input("Enter working hours: "))
+
+e = (p * t) / 1000
+
+print("Energy =", e, "kWh")
