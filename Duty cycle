@@ -1,0 +1,6 @@
+on = float(input("Enter ON time: "))
+total = float(input("Enter total time: "))
+
+d = (on / total) * 100
+
+print("Duty Cycle =", d, "%")
