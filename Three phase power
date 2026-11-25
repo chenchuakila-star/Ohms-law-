@@ -1,0 +1,9 @@
+import math
+
+v = float(input("Enter voltage: "))
+i = float(input("Enter current: "))
+pf = float(input("Enter power factor: "))
+
+p = math.sqrt(3) * v * i * pf
+
+print("Three phase power =", p, "Watts")
