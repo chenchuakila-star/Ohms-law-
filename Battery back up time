@@ -1,0 +1,6 @@
+capacity = float(input("Enter battery capacity (Ah): "))
+current = float(input("Enter load current (A): "))
+
+time = capacity / current
+
+print("Backup time =", time, "Hours")
