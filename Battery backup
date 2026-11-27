@@ -1,0 +1,6 @@
+class Main {
+ public static void main(String[] args) {
+ double ah=100,i=10;
+ System.out.println(ah/i);
+ }
+}
