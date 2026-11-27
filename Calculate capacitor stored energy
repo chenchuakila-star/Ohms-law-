@@ -1,0 +1,5 @@
+c = float(input("Enter capacitance in Farads: "))
+v = float(input("Enter voltage: "))
+
+energy = 0.5 * c * v * v
+print("Stored energy =", energy, "J")
