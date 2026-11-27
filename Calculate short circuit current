@@ -1,0 +1,5 @@
+v = float(input("Enter voltage: "))
+z = float(input("Enter impedance: "))
+
+isc = v / z
+print("Short circuit current =", isc, "A")
