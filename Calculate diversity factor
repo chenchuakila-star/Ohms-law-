@@ -1,0 +1,5 @@
+individual = float(input("Enter sum of individual maximum demands: "))
+maximum = float(input("Enter maximum coincident demand: "))
+
+df = individual / maximum
+print("Diversity factor =", df)
