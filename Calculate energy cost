@@ -1,0 +1,5 @@
+units = float(input("Enter units consumed: "))
+rate = float(input("Enter cost per unit: "))
+
+bill = units * rate
+print("Electricity cost =", bill)
