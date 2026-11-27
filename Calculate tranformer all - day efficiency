@@ -1,0 +1,5 @@
+output = float(input("Enter output energy: "))
+input_energy = float(input("Enter input energy: "))
+
+eff = (output / input_energy) * 100
+print("All day efficiency =", eff, "%")
