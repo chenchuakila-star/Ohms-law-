@@ -1,0 +1,6 @@
+class Main {
+ public static void main(String[] args) {
+ double v=230;
+ System.out.println(v*1.414);
+ }
+}
