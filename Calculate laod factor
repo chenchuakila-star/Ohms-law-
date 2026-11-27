@@ -1,0 +1,5 @@
+average = float(input("Enter average load: "))
+maximum = float(input("Enter maximum load: "))
+
+lf = average / maximum
+print("Load factor =", lf)
