@@ -1,0 +1,5 @@
+b = float(input("Enter magnetic flux density: "))
+a = float(input("Enter area: "))
+
+flux = b * a
+print("Magnetic flux =", flux, "Weber")
