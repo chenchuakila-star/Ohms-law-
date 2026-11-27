@@ -1,0 +1,5 @@
+capacity = float(input("Enter total capacity: "))
+remaining = float(input("Enter remaining capacity: "))
+
+soc = (remaining / capacity) * 100
+print("Battery SOC =", soc, "%")
