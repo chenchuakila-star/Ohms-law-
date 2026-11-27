@@ -1,0 +1,5 @@
+i = float(input("Enter current: "))
+r = float(input("Enter cable resistance: "))
+
+drop = i * r
+print("Voltage drop =", drop, "V")
