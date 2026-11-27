@@ -1,0 +1,6 @@
+class Main {
+ public static void main(String[] args) {
+ double i=6,r1=2,r2=4;
+ System.out.println(i*r2/(r1+r2));
+ }
+}
