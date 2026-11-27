@@ -1,0 +1,2 @@
+v = float(input("Peak voltage: "))
+print("RMS =", v/1.414)
