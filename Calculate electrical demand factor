@@ -1,0 +1,5 @@
+max_demand = float(input("Enter maximum demand: "))
+connected_load = float(input("Enter connected load: "))
+
+df = max_demand / connected_load
+print("Demand factor =", df)
