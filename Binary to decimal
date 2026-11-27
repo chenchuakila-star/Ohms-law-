@@ -1,0 +1,6 @@
+ class Main {
+ public static void main(String[] args) {
+ String n="1010";
+ System.out.println(Integer.parseInt(n,2));
+ }
+}
